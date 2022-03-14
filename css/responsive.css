@@ -1,0 +1,35 @@
+/* small device */
+@media only screen and (min-device-width : 100px) and (max-device-width:576px){
+
+    .home-center h1{
+        
+        font-size:8vw;
+        
+    }
+    .home-center p{
+        display:none;
+        
+    }
+
+    .home-button .btn-member{
+        margin-top:15px;
+        
+        }
+    .home-button .btn-shop{
+        margin-top:15px;
+        
+        }
+}
+
+/* medium device */
+
+
+@media only screen and (min-device-width : 577px) and (max-device-width:767px){
+
+    .home-center h1{
+        
+        font-size:10vw;
+        
+    }
+    
+}

@@ -1,0 +1,133 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding:0;
+    margin:0;
+}
+
+/* logo */
+
+.navbar-brand img{
+    height:40px;
+    border-radius: 30%;
+}
+
+.navbar-toggler-icon{
+    background-image:url(../img/menu.jpg) !important;
+}
+
+/* landing section */
+
+#home{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url(../img/bac.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-attachment: fixed;
+}
+
+.home-center{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+}
+
+.home-center h1{
+    color:white;
+    font-size:80px;
+    font-weight:bold;
+}
+.home-center p{
+    color:white;
+    font-weight:500;
+    text-align: center;
+    width: 50%;
+    margin:0 auto;
+}
+
+.home-button .btn-shop{
+color:white;
+padding:5px;
+font-weight: bold;
+border:2px solid white;
+font-size: 20px;
+margin-top:10px;
+}
+
+.home-button .btn-shop:hover{
+    background:white;
+    color:rgb(47, 14, 99);
+}
+.home-button .btn-member{
+    color:white;
+    padding:5px;
+    font-weight: bold;
+    border:2px solid white;
+    font-size: 20px;
+    margin-top:10px;
+    margin-left: 10px;
+    }
+    
+    .home-button .btn-member:hover{
+        background:white;
+        color:rgb(47, 14, 99);
+    }
+
+/* product section */
+
+.card-img{
+    overflow: hidden;
+}
+.card-img img{
+    transition: 0.75s;
+}
+.card-img img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* cart button */
+
+.btn-view {
+    background:black;
+    color:white;
+    padding:5px 15px ;
+    border:2px solid white;
+    font-weight:bold;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.btn-view:hover {
+    background:none;
+    color:black;
+    transition: 0.50s ease-in-out;
+    
+}
+
+.btn-cart{
+    background:black;
+    color:white;
+    padding:5px 15px ;
+    border:2px solid white;
+    font-weight:bold;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.btn-cart:hover {
+    background:none;
+    color:black;
+    transition: 0.50s ease-in-out;
+}
+
+.btn-cart .btn-view , a {
+    text-decoration: none;
+}
+
+
