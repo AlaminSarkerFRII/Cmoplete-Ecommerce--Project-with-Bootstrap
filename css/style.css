@@ -131,3 +131,14 @@ margin-top:10px;
 }
 
 
+/* Testimonial  */
+
+.carousel-inner{
+    text-align: center;
+}
+
+
+.carousel-inner .carousel-item img{
+    border-radius: 50%;
+    width:30%;
+}
